@@ -1,0 +1,69 @@
+2
+#include<stdio.h>
+int main
+{
+int a;
+int b,c,d,e;
+prinf("enter the number ");
+scanf("%d",&a);
+b=a++;
+c=a--;
+d=--a;
+e=++a;
+printf("the result is %d ",b,c,d,e);
+return 0;
+}
+
+7
+ #include <stdio.h>
+ 
+int main()
+{
+   int m=40,n=20;
+   int o=20,p=30;
+   if (m>n && m !=0)
+   {
+      printf("&& Operator : Both conditions are true\n");
+   }
+   if (o>p || p!=20)
+   {
+      printf("|| Operator : Only one condition is true\n");
+   }
+   if (!(m>n && m !=0))
+   {
+      printf("! Operator : Both conditions are true\n");
+   }
+   else
+   {
+      printf("! Operator : Both conditions are true. " \
+      "But, status is inverted as false\n");
+   }
+}
+
+
+
+6.no,serves as the starting point for program execution
+  
+
+4.
+int x=1, y ;
+y = ( x ==1 ? 2 : 0 ) ;
+printf("x value is %d\n", x);
+printf("y value is %d", y);
+
+9.
+keywords 
+special symbols
+constants
+identifiers
+strings
+operators
+
+5
+
+#include<stdio.h>  
+ int main()    
+{    
+ if(printf("hello world")){}    
+return 0;  
+}   
