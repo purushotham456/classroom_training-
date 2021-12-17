@@ -1,4 +1,4 @@
-2
+//wap on unary operators 
 #include<stdio.h>
 int main
 {
@@ -14,7 +14,7 @@ printf("the result is %d ",b,c,d,e);
 return 0;
 }
 
-7
+//wap on logical operotor
  #include <stdio.h>
  
 int main()
@@ -40,18 +40,17 @@ int main()
    }
 }
 
-
-
-6.no,serves as the starting point for program execution
-  
-
-4.
+ //wap on conditional operator
+ #include<stdio.h>
+ int main()
+ {
 int x=1, y ;
 y = ( x ==1 ? 2 : 0 ) ;
 printf("x value is %d\n", x);
 printf("y value is %d", y);
+}
 
-9.
+// c tokens
 keywords 
 special symbols
 constants
@@ -59,8 +58,8 @@ identifiers
 strings
 operators
 
-5
 
+//simple program without semicolon
 #include<stdio.h>  
  int main()    
 {    
