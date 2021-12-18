@@ -38,9 +38,10 @@ the return address of the instruction which is to be executed after the function
 
 The stack and heap are traditionally located at opposite ends of the process's virtual address space.
 
+//storage classes
 
-Storage Class	           Declaration	            Storage	     Default Initial Value	    Scope	                       Lifetime
-auto	             Inside a function/block	       memory         Unpredictable	     Within the function/block	  Within the function/block  
+Storage Class            Declaration	            Storage	     Default Initial Value	       Scope	                       Lifetime
+auto	             Inside a function/block	       memory         garbage value	     Within the function/block	  Within the function/block  
           
 
 
@@ -49,13 +50,13 @@ register         Inside a function/block	    CPU Registers	    Garbage	         
 
 
 
-extern	         Outside all functions	                Memory	          Zero	              Entire the file and other files        program runtime
+extern	         Outside all functions	                Memory	          Zero	           Entire the file and other files        program runtime
                                                                                                  where the variable is 
 
                                                                                                   declared as extern
                                                                                              
 
-Static (local)	Inside a function/block	                  Memory	      Zero	   Within the function/block	           program runtime
+Static (local)	Inside a function/block	                  Memory	      Zero	              Within the function/block	           program runtime
   
 
 
